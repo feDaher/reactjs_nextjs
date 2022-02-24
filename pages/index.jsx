@@ -3,7 +3,7 @@ import Head from "next/head"
 import Title from "../src/componentes/title/title"
 import Subtitle from "../src/componentes/subtitle/subtitle"
 import Button from "../src/componentes/button/button"
-
+//import Header from "../src/componentes/header/header"
 
 function HomePage () {
   const [click, setClick] = useState(0) // primeiro é a variavel, segundo é a função que altera a variavel, usa o "useState" colocando dentro da função o numero inicial que no caso é 0
